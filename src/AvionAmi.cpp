@@ -144,6 +144,8 @@ void AvionAmi::deplacement()
 
     //direction
 
+
+    // Tentative pour empêcher la sortie des avions
     if (x==11 && dx==1){
         dx=0;
 
